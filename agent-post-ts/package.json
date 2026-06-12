@@ -1,0 +1,18 @@
+{
+  "name": "agent-post",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for Agent Post — AI agent identity + communication protocol",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "keywords": ["agent", "communication", "ed25519", "inbox", "mcp", "ai"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
